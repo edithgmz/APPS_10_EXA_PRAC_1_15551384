@@ -35,6 +35,7 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
         seekA.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
+                //Toma el valor del cambio en la barra (i) y lo multiplica por 3.6
                 a = i*3.6;
                 txtVwAngulo.setText(""+a);
             }
@@ -64,6 +65,8 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
         Toast.makeText(this, v+"", Toast.LENGTH_SHORT).show();
     }
 
+    //Método encargado de esconder el teclado cuando se toca cualquier parte de la app que no sea
+    //el EditText
     @Override
     public boolean onTouch(View v, MotionEvent event) {
         InputMethodManager imm = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
