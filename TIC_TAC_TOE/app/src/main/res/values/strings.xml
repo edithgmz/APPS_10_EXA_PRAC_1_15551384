@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TIC TAC TOE</string>
+    <string name="x">x</string>
+    <string name="info">gana x</string>
+    <string name="o">o</string>
+    <string name="ini">-</string>
+    <string name="reini">reiniciar</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CALCULA EL VOLUMEN</string>
+    <string name="radio">Radio:</string>
+    <string name="angulo">Ángulo:</string>
+    <string name="cero">0</string>
+    <string name="t60">360</string>
+    <string name="ang"></string>
+    <string name="calcular">CALCULAR</string>
+    <string name="img">cuña</string>
+</resources>
